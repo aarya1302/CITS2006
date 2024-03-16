@@ -1,0 +1,1 @@
+openssl dgst -md5 test2.txt
