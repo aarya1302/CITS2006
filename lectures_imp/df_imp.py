@@ -44,6 +44,7 @@ def example2():
     sum_redact_dataset = round(sum(redact_dataset['sales_amount'].to_list()), 2)
     sales_amount_Osbourne = round((sum_original_dataset - sum_redact_dataset), 2)
 
+
     ##uncomment below to check the difference, which we can use to identify the person
     #print(sales_amount_Osbourne)
     #assert sales_amount_Osbourne == original_dataset.iloc[0, 4]
@@ -67,7 +68,7 @@ def example2():
     dp_sum_redact = sum(dp_redact_dataset)
 
 
-
+    
     #Final output
     #note, DP output changes every run since it adds random value
     print(f"Sum of sales_value in the orignal dataset: {sum_original_dataset}")
